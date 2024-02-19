@@ -40,14 +40,32 @@ This is one of my Capstone Projects from the Udemy Web Developer Bootcamp, which
    ```
 
 4. Set up your PostgreSQL database and update the database connection details in `server/db.js`.
+5. To run the server, you can use either `nodemon` or `node index.js`:
 
-5. Run the server and client concurrently:
+### Using nodemon:
+
+If you have `nodemon` installed globally, you can use the following command to start the project:
+
+```bash
+nodemon index.js
+```
+This will automatically restart the server whenever you make changes to your files.
+
+Using node:
+If you prefer to use node, you can start the project with the following command:
+
+```bash
+node index.js
+```
+This will start the server, but you'll need to manually restart it after making changes to your files.
+
+6. Run the server and client concurrently:
 
    ```bash
    npm run dev
    ```
 
-6. The app will be accessible at `http://localhost:3000`.
+7. The app will be accessible at `http://localhost:3000`.
 
 ## Usage
 
