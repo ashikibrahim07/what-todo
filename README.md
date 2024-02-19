@@ -56,7 +56,7 @@ This is one of my Capstone Projects from the Udemy Web Developer Bootcamp, which
 - Delete and Update todos.
 
 ## SnapShots
-![What Todo](https://github.com/ashikibrahim07/what-todo/blob/main/What%20Todo.png)
+![What Todo](https://github.com/ashikibrahim07/what-todo/blob/main/Screenshot%20(372).png)
 
 ## Contributing
 
