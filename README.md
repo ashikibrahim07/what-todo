@@ -56,8 +56,7 @@ This is one of my Capstone Projects from the Udemy Web Developer Bootcamp, which
 - Delete and Update todos.
 
 ## SnapShots
-![image]([https://github.com/vickytilotia/PERN-ToDo-App/assets/32337899/55fc7f56-1889-473a-908f-2ae49e2fd0c2](https://github.com/ashikibrahim07/What-Todo/blob/main/PERN-ToDO.png))
-
+![What Todo](https://github.com/ashikibrahim07/what-todo/blob/main/What%20Todo.png)
 
 ## Contributing
 
