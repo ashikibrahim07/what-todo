@@ -68,3 +68,10 @@ Contributions are welcome! If you find any issues or want to enhance the project
 4. Push to the branch: `git push origin feature-name`.
 5. Submit a pull request.
 
+##Author
+
+Ashik Ibrahim S
+
+## License
+This project is licensed under the MIT License.
+
