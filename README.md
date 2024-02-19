@@ -27,7 +27,7 @@ This is one of my Capstone Projects from the Udemy Web Developer Bootcamp, which
 2. Navigate to the project directory:
 
    ```bash
-   cd PERN-ToDo-App
+   cd what-todo
    ```
 
 3. Install dependencies for both the server and client:
