@@ -51,7 +51,7 @@ nodemon index.js
 ```
 This will automatically restart the server whenever you make changes to your files.
 
-Using node:
+### Using node:
 If you prefer to use node, you can start the project with the following command:
 
 ```bash
