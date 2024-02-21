@@ -75,9 +75,8 @@ button.add {
   border-width: 0;
   outline: none;
 }
-.add:hover {
-  background-color: #00204a;
-  color: #fff;
+button.add:active {
+  transform: scale(0.9);
 }
 button.edit {
   margin-left: auto;
