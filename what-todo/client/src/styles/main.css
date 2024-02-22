@@ -162,3 +162,20 @@ footer {
   flex: 0 0 auto;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .box {
+    max-width: 90%;
+  }
+  .todo-list {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .box {
+    max-width: 80%;
+  }
+  .todo-list {
+    max-width: 80%;
+  }
+}
