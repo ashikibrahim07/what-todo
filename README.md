@@ -58,7 +58,10 @@ If you prefer to use node, you can start the project with the following command:
 node index.js
 ```
 This will start the server, but you'll need to manually restart it after making changes to your files.
+
+
 6. The server will be accessible at `http://localhost:8000`.
+
 7. Run the server and client concurrently:
 
    ```bash
