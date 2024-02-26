@@ -4,12 +4,12 @@ This project implements a simple ToDo application using the PERN stack: PostgreS
 This is one of my Capstone Projects from the Udemy Web Developer Bootcamp, which I have completed.
 
 ## Features
-```
+
 - Create new tasks with descriptions.
 - Edit tasks as per need.
 - Delete tasks from the list.
 - View all tasks and their statuses.
-```
+
 ## Technologies
 
 - Front-End: React.js, HTML, CSS, Bootstrap and JavaScript 
