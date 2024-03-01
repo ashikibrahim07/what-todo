@@ -3,6 +3,18 @@ This is What Todo a PERN Stack Todo App.
 This project implements a simple ToDo application using the PERN stack: PostgreSQL, Express.js, React, and Node.js. This app allows you to manage your tasks, mark them as complete, and remove them from your list.
 This is one of my Capstone Projects from the Udemy Web Developer Bootcamp, which I have completed.
 
+## Table of Contents
+
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Video Demo](#video-demo)
+- [SnapShots](#snapshots)
+- [Contributing](#contributing)
+- [Author](#author)
+- [License](#license)
+  
 ## Features
 
 - Create new tasks with descriptions.
