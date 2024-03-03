@@ -24,10 +24,9 @@ This is one of my Capstone Projects from the Udemy Web Developer Bootcamp, which
 
 ## Technologies
 
-- Front-End: React.js, HTML, CSS, Bootstrap and JavaScript 
-- Back-End: Express.js, Node.js
-- Database: PostgreSQL
-
+- Front-End: `React.js`, `HTML`, `CSS`, `Bootstrap`, and `JavaScript` 
+- Back-End: `Express.js` and `Node.js`
+- Database: `PostgreSQL`
 
 ## Installation
 
