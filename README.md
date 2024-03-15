@@ -90,7 +90,7 @@ This will start the server, but you'll need to manually restart it after making 
 
 # Video Demo
 
-You can view the video demo of the project [here](https://www.youtube.com/watch?v=2N2Pg4Ezt6A).
+You can view the video demo of the what todo [here](https://www.youtube.com/watch?v=2N2Pg4Ezt6A).
 
 ## SnapShots
 ![What Todo](https://github.com/ashikibrahim07/what-todo/blob/main/Screenshot%20(372).png)
