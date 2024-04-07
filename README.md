@@ -1,4 +1,4 @@
-# What-Todo
+# What-Todo?!
 This is What Todo a PERN Stack Todo App. 
 This project implements a simple ToDo application using the PERN stack: PostgreSQL, Express.js, React, and Node.js. This app allows you to manage your tasks, mark them as complete, and remove them from your list.
 This is one of my Capstone Projects from the Udemy Web Developer Bootcamp, which I have completed.
@@ -52,6 +52,7 @@ This is one of my Capstone Projects from the Udemy Web Developer Bootcamp, which
    ```
 
 4. Set up your PostgreSQL database and update the database connection details in `server/db.js`.
+   
 5. To run the server, you can use either `nodemon` or `node index.js`:
 
 ### Using nodemon:
