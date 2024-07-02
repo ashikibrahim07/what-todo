@@ -17,7 +17,6 @@ You can view the video demo of the what todo [here](https://www.youtube.com/watc
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
-- [SnapShots](#snapshots)
 - [Contributing](#contributing)
 - [Author](#author)
 - [License](#license)
@@ -95,10 +94,6 @@ This will start the server, but you'll need to manually restart it after making 
 - Create tasks/ todos.
 - Get all details of todos
 - Delete and Update todos.
-
-
-## SnapShots
-![What Todo](https://github.com/ashikibrahim07/what-todo/blob/main/Screenshot%20(372).png)
 
 ## Contributing
 
