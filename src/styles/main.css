@@ -1,0 +1,240 @@
+/* HTML STYLES */
+html {
+  min-height: auto;
+}
+
+/* BODY STYLES */
+body {
+  background-image: -webkit-linear-gradient(66deg, #a683e3 50%, #e4e9fd 50%);
+  display: flex;
+  flex-direction: column;
+  font-family: "Architects Daughter", cursive;
+  justify-content: stretch;
+  min-height: 100vh;
+}
+
+/* HEADING STYLES */
+h1 {
+  color: #fff;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  font-size: 1.5rem;
+}
+
+/* BOX STYLES */
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+/* HEADING ID STYLES */
+#heading {
+  background-color: #a683e3;
+  text-align: center;
+  padding: 10px;
+}
+
+/* EDIT FORM STYLES */
+form.edit {
+  display: flex;
+}
+
+/* ITEM STYLES */
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/* LAST CHILD ITEM STYLES */
+.item:last-child {
+  border-bottom: 0;
+}
+
+/* CHECKBOX INPUT STYLES */
+input[type="checkbox"] {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* PARAGRAPH STYLES */
+p {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 20px;
+  color: #00204a;
+}
+
+/* FORM STYLES */
+form {
+  text-align: center;
+  margin-left: 20px;
+}
+
+/* ADD BUTTON STYLES */
+button.add {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #a683e3;
+  color: #fff;
+  font-size: 30px;
+  border-width: 0;
+  outline: none;
+}
+
+/* ACTIVE ADD BUTTON STYLES */
+button.add:active {
+  transform: scale(0.9);
+}
+
+/* EDIT BUTTON STYLES */
+button.edit {
+  margin-left: auto;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* COMPLETE BUTTON STYLES */
+button.complete {
+  margin-top: 10px;
+  margin-right: 10px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* ICON STYLES */
+.icon {
+  height: 20px;
+  margin-left: 20px;
+}
+
+/* TODO LIST STYLES */
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  font-size: 1.1rem;
+  margin: 50px auto;
+  background: #e4e9fd;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: -5px 5px 15px -5px rgba(0, 0, 0, 0.3),
+    5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+/* TODO ITEM STYLES */
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #a683e3;
+  width: 100%;
+}
+
+/* TEXT INPUT STYLES */
+input[type="text"] {
+  text-align: left;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 80%;
+}
+
+/* FOCUSED TEXT INPUT STYLES */
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #a683e3;
+}
+
+/* PLACEHOLDER TEXT STYLES */
+::placeholder {
+  color: lightgray;
+  opacity: 1;
+}
+
+/* MODAL CONTENT STYLES */
+.modal-content {
+  background-color: #e4e9fd;
+}
+
+/* MODAL TITLE STYLES */
+.modal-title {
+  background-color: #a683e3;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  color: #f1f1f1;
+  font-weight: 800;
+  margin-left: 30px;
+}
+
+/* MODAL BODY STYLES */
+.modal-body {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+/* MODAL FOOTER STYLES */
+.modal-footer {
+  margin-right: 30px;
+}
+
+/* GRADIENT TEXT STYLES */
+.gradient-text {
+  color: #00204a;
+}
+
+.count-text {
+  color: #00204a;
+  text-align: center;
+}
+
+/* FOOTER STYLES */
+footer {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+  .box {
+    max-width: 90%;
+  }
+  .todo-list {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .box {
+    max-width: 80%;
+  }
+  .todo-list {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  button.add {
+    min-height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    font-size: 30px;
+    border-width: 0;
+    outline: none;
+  }
+}
