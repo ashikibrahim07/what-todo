@@ -18,6 +18,7 @@ Check out the live application here: [Live Demo](https://what-todo-v1.vercel.app
 
 ## Installation and Setup  
 To run the project locally:  
+
 1. Clone the repository:  
    ```bash
    git clone https://github.com/ashikibrahim07/what-todo.git
