@@ -10,7 +10,9 @@
 
 ## Technologies Used  
 - **React.js**: Core framework for building the application.  
-- **CSS**: Styling for a clean and minimal interface.  
+- **CSS**: Styling for a clean and minimal interface.
+- **Material UI**: For implementing modern UI components and design patterns.
+- **SweetAlert**: For creating beautiful, customizable pop-up alerts.
 - **Local Storage**: For persistent data storage on the user’s device.  
 
 ## Live Demo  
