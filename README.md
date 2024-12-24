@@ -29,7 +29,7 @@ To run the project locally:
   cd what-todo
   ```
 
-3.Install dependencies:
+3. Install dependencies:
   ```bash
   npm install
   ```
