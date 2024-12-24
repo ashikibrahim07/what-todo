@@ -1,4 +1,4 @@
-# What Todo  
+# What Todo  📝
 
 **What Todo** is a simple and intuitive task management application built with React. The app uses local storage to save your tasks, ensuring your to-dos persist even after the browser is refreshed.  
 
