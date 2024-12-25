@@ -131,6 +131,10 @@ button.complete {
     5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
+.todo-description {
+  text-align: left;
+}
+
 /* TODO ITEM STYLES */
 .todo-item {
   display: flex;

@@ -42,6 +42,15 @@ const ListTodos = () => {
       showCancelButton: true,
       confirmButtonText: "Yes, complete it!",
       cancelButtonText: "No, cancel",
+      showClass: {
+        popup: "animate__animated animate__fadeIn animate__faster",
+      },
+      hideClass: {
+        popup: "animate__animated animate__fadeOut animate__faster",
+      },
+      customClass: {
+        popup: "smooth-popup",
+      },
     }).then((result) => {
       if (result.isConfirmed) {
         deleteTodo(id);
