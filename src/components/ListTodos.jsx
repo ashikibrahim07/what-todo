@@ -75,7 +75,7 @@ const ListTodos = () => {
     <div className="todo-list">
       {todos.map((todo) => (
         <div key={todo.todo_id} className="todo-item">
-          <Tooltip title="Completed">
+          <Tooltip title="Mark as Completed">
             <button
               type="button"
               className="complete"

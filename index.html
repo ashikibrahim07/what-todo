@@ -2,13 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Meta Tags for SEO -->
+    <meta
+      name="description"
+      content="ToDo List - What Todo!? A productivity tool to keep track of your tasks and get things done."
+    />
+    <meta name="author" content="Ashik Ibrahim S" />
+    <meta property="og:title" content="What Todo!? - Let’s Get Things Done." />
+    <meta
+      property="og:description"
+      content="A ToDo list app to help you manage tasks and boost your productivity."
+    />
+    <meta
+      name="keywords"
+      content="ToDo list, task manager, productivity, task tracker, to-do app, get things done, organize tasks, personal productivity, task management, to-do list app, productivity app, task organizer, task checklist, goal tracker, productivity tools, time management, action items, task prioritization"
+    />
+    <meta property="og:image" content="your-image-url.png" />
+    <meta property="og:url" content="https://what-todo-v1.vercel.app/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="What Todo!? - Let’s Get Things Done." />
+    <meta
+      name="twitter:description"
+      content="ToDo List app for task management and productivity."
+    />
+    <meta name="twitter:image" content="your-image-url.png" />
+
+    <!-- Favicon -->
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>"
+      sizes="32x32"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="ToDo List" />
-    <meta name="Author" content="Ashik Ibrahim S" />
+
+    <!-- Preconnect for faster loading -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap and Animate CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -16,19 +53,22 @@
       crossorigin="anonymous"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+
+    <!-- Theme Color for Mobile -->
+    <meta name="theme-color" content="#ffffff" />
 
     <title>What Todo!? - Let’s Get Things Done.</title>
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Scripts -->
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- JS Dependencies -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

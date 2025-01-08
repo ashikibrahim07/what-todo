@@ -46,7 +46,7 @@ const InputTodo = () => {
             onChange={(e) => setDescription(e.target.value)}
           />
 
-          <button className="add" type="submit">
+          <button className="add" type="submit" aria-label="Add new task">
             <AddIcon />
           </button>
         </form>
