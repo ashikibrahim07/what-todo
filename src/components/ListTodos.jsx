@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
-import DoneAllIcon from "@mui/icons-material/DoneAll";
-import Tooltip from "@mui/material/Tooltip";
 import "../styles/main.css";
+
 import EditTodo from "./EditTodo";
 import TodosCount from "./TodosCount";
+
+import DoneAllIcon from "@mui/icons-material/DoneAll";
+import Tooltip from "@mui/material/Tooltip";
+import Button from "@mui/material/Button";
 import Swal from "sweetalert2";
 
 const ListTodos = () => {
@@ -17,6 +20,23 @@ const ListTodos = () => {
     } catch (err) {
       console.error(err.message);
     }
+  };
+
+  const clearAllTodos = () => {
+    Swal.fire({
+      title: "Confirm Clear All",
+      text: "Are you sure you want to clear all tasks?",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonText: "Yes, clear all!",
+      cancelButtonText: "No, cancel",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        localStorage.removeItem("todos");
+        setTodos([]);
+        Swal.fire("Cleared!", "All tasks have been cleared.", "success");
+      }
+    });
   };
 
   const getTodos = () => {
@@ -42,15 +62,6 @@ const ListTodos = () => {
       showCancelButton: true,
       confirmButtonText: "Yes, complete it!",
       cancelButtonText: "No, cancel",
-      showClass: {
-        popup: "animate__animated animate__fadeIn animate__faster",
-      },
-      hideClass: {
-        popup: "animate__animated animate__fadeOut animate__faster",
-      },
-      customClass: {
-        popup: "smooth-popup",
-      },
     }).then((result) => {
       if (result.isConfirmed) {
         deleteTodo(id);
@@ -89,6 +100,9 @@ const ListTodos = () => {
         </div>
       ))}
       <TodosCount incompleteTodosCount={incompleteTodosCount} />
+      <Button variant="contained" onClick={clearAllTodos} className="clearAll">
+        Clear All Tasks
+      </Button>
     </div>
   );
 };

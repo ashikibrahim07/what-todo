@@ -1,7 +1,8 @@
 import React, { useState, Fragment } from "react";
+import "../styles/main.css";
+
 import pencilIcon from "../assets/icons/pencil-solid.svg";
 import Tooltip from "@mui/material/Tooltip";
-import "../styles/main.css";
 
 function EditTodo({ todo }) {
   const [description, setDescription] = useState(todo.description);

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import "../styles/main.css";
+
 import AddIcon from "@mui/icons-material/Add";
 import Alert from "@mui/material/Alert";
 import Stack from "@mui/material/Stack";
-import "../styles/main.css";
 
 const InputTodo = () => {
   const [description, setDescription] = useState("");
